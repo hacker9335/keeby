@@ -22,3 +22,12 @@ routed it
 <img width="812" height="270" alt="Screenshot 2026-07-08 221447" src="https://github.com/user-attachments/assets/5dbfe068-a8f7-4130-8f0a-2db9096510b5" />
 
  
+Journal 5 (2hrs)'
+
+coded it 
+<img width="1670" height="732" alt="image" src="https://github.com/user-attachments/assets/a98fbc1d-0f96-40d1-a875-682c63e87bf4" />
+
+Journal 6 (30 mins)
+cased it
+<img width="1032" height="437" alt="image" src="https://github.com/user-attachments/assets/b04ad94b-707f-4d9e-9eb6-28557718f917" />
+
