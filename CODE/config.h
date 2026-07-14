@@ -1,0 +1,13 @@
+#pragma once
+
+#define MATRIX_ROWS 7
+#define MATRIX_COLS 20
+
+#define I2C_DRIVER I2CD1
+#define I2C1_SDA_PIN GP26
+#define I2C1_SCL_PIN GP27
+#define MCP23017_I2C_ADDRESS 
+
+#define DEBOUNCE 5
+
+#define DIODE_DIRECTION COL2ROW
