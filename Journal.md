@@ -31,3 +31,6 @@ Journal 6 (30 mins)
 cased it
 <img width="1032" height="437" alt="image" src="https://github.com/user-attachments/assets/b04ad94b-707f-4d9e-9eb6-28557718f917" />
 
+Journal 7 (30 mins)
+repo dun
+
