@@ -28,3 +28,8 @@ at the AED peg (1 USD = 3.6725 AED).
 - AliExpress/Amazon subtotal: **458 AED**
 - PCB (converted): **~389.28 AED**
 - **Grand total: ~847.28 AED (≈ 230.71 USD)**
+- <img width="1912" height="746" alt="image" src="https://github.com/user-attachments/assets/cb24b91e-6392-41b2-a0fd-0ba494dd69e3" />
+
+- ik the pcb is like expensive as shi even idk wy shippings high as hell in uae
+- 
+
