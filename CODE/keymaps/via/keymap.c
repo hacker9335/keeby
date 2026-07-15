@@ -1,11 +1,5 @@
 #include QMK_KEYBOARD_H
 
-// VIA-enabled keymap. Layer 0 mirrors keymaps/default (fill in real
-// keycodes, same order as keyboard.json's "layout" array: SW1..SW98
-// then the encoder push button). Layers 1-3 are blank (KC_TRNS) and
-// exist so VIA has its usual 4 dynamic keymap layers to work with -
-// remap them live in the VIA app once flashed.
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
         KC_NO, // SW1  row 0 col 0
@@ -414,8 +408,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 #if defined(ENCODER_MAP_ENABLE)
-// One rotary encoder, CW/CCW per layer. Its push button is a normal
-// matrix key above (ENC_PRESS), not part of this map.
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
     [1] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },

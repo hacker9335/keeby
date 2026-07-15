@@ -5,28 +5,27 @@
 
 #define MATRIX_ROWS_REAL 6
 
-// ---- Row pins (Pico direct inputs) ----
 static const pin_t row_pins[MATRIX_ROWS_REAL] = {
     GP0, GP1, GP2, GP3, GP4, GP5
 };
 
 
 static const bool col_is_mcp[MATRIX_COLS] = {
-    false, false, false, false, false, false, false, false, false, false, // COL0-9
-    true,  true,  true,  true,  true,                                     // COL10-14
-    false, false, false, false, false                                     // COL15-19
+    false, false, false, false, false, false, false, false, false, false, 
+    true,  true,  true,  true,  true,                                     
+    false, false, false, false, false                                     
 };
 
 static const pin_t col_pin[MATRIX_COLS] = {
-    GP6, GP7, GP8, GP9, GP10, GP11, GP12, GP13, GP14, GP15, // COL0-9
-    NO_PIN, NO_PIN, NO_PIN, NO_PIN, NO_PIN,                  // COL10-14 (MCP, unused here)
-    GP18, GP19, GP20, GP21, GP22                             // COL15-19
-};
+    GP6, GP7, GP8, GP9, GP10, GP11, GP12, GP13, GP14, GP15, 
+    NO_PIN, NO_PIN, NO_PIN, NO_PIN, NO_PIN,                 
+    GP18, GP19, GP20, GP21, GP22                             
+}
 
 static const uint8_t col_mcp_bit[MATRIX_COLS] = {
-    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // COL0-9 (unused here)
-    4, 3, 2, 0, 1,                // COL10-14
-    0, 0, 0, 0, 0                 // COL15-19 (unused here)
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+    4, 3, 2, 0, 1,               
+    0, 0, 0, 0, 0                 
 };
 
 #define MCP_IODIRA 0x00
